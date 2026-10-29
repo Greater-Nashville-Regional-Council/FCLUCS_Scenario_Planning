@@ -4,7 +4,7 @@ G:\3-GitHub\FCLUCS_Scenario_Planning
 
 This repository contains work preparing for and carrying out the FCLUCS scenario planning.  
 
-What we need: Household Population, Total Employment, Employment by: Service, Retail, Office, Medical, Industrial, Government, Food Service, Education, and Other – county controls and block level distributions.  
+What we need: Household Population, Total Employment 
 
 Base Year:  
 
@@ -29,7 +29,9 @@ Tennessee Counties – We have the county controls and block distributions for 2
 
 Kentucky Counties – We have the county controls from Woods and Poole for 2050. We have decided it’s outside of budget and not necessary to run the entire UrbanSIM model to get the distributions needed for the BAU, and that we will use our internal team and Tetra Tech to produce this.  
 
-*In both cases below, the key is to find the best methodology for the furthest projection of the datapoint we’re looking for and use that to distribute.
+*In both cases below, the key is to find the best methodology for the furthest projection of the datapoint we’re looking for and use that to distribute. OR to accept the current distribution plus information from our locals. Or some combination.   
+
+Data Options:
 Household Population: We can look at growth to 2030 using the global human settlement layer, which can be allocated to Census blocks, and then use that to growth distribution to spread the Woods and Poole 2050 control totals.  
 
 Employment and Employment by Industry: JobsEQ provides 10-year forecasts at the industry level (NAICS – not BEA) at the block level. We can use that industry growth and small-area distribution we see in JobsEQ as the distribution to spread the Woods and Poole 2050 control totals.  
